@@ -48,6 +48,9 @@ body {
 }
 
 .site-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -61,8 +64,19 @@ body {
 }
 
 .site-nav-link-current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--accent-color);
   text-decoration: none;
+}
+
+.contacts-list {
+  display: flex;
+}
+
+.contacts-item + .contacts-item {
+  margin-left: 50px;
 }
 
 .logo {
