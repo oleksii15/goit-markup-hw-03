@@ -39,6 +39,14 @@ body {
   letter-spacing: 0.02em;
 }
 
+.site-nav-list {
+  display: flex;
+}
+
+.site-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav-link {
   color: var(--title-text-color);
   font-weight: 500;
