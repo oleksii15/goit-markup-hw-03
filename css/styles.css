@@ -75,6 +75,11 @@ body {
   display: flex;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .contacts-item + .contacts-item {
   margin-left: 50px;
 }
