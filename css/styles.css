@@ -115,26 +115,6 @@ body {
   text-decoration: none;
 }
 
-.logo-white-footer {
-  padding-top: 60px;
-  color: var(--white-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.logo-footer {
-  padding-top: 60px;
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-}
-
 .hero {
   text-align: center;
   background-color: var(--black-bg-color);
@@ -296,6 +276,7 @@ body {
 }
 
 .footer-address {
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-text-color);
@@ -320,6 +301,7 @@ body {
   text-decoration: none;
 }
 .footer-link {
+  margin-bottom: 9px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
