@@ -159,6 +159,15 @@ body {
   margin-right: 0;
 }
 
+.filters-item {
+  margin-right: 8px;
+}
+.filters-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .activity-title {
   color: var(--title-text-color);
   font-size: 14px;
@@ -246,6 +255,7 @@ body {
   line-height: 1.87;
   background-color: var(--accent-color);
   color: var(--white-text-color);
+  border: none;
   text-decoration: none;
   text-align: center;
 }
@@ -254,16 +264,8 @@ body {
   cursor: pointer;
 }
 
-.filters-list {
-  display: flex;
-  margin-bottom: 50px;
-}
-
-.filters-item {
-  margin-right: 8px;
-}
-
 .filters-button {
+  border: none;
   padding: 6px 22px 6px 22px;
   background-color: var(--button-grey-color);
   color: var(--title-text-color);
