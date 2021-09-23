@@ -48,6 +48,11 @@ img {
   box-sizing: border-box;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -63,10 +68,7 @@ img {
   align-items: center;
 }
 
-.site-nav-list {
-  display: flex;
-  align-items: center;
-}
+/* SITE NAVIGATION */
 
 .header-contacts {
   margin-left: auto;
@@ -75,7 +77,10 @@ img {
 .contacts-list {
   display: flex;
 }
-
+.site-nav-list {
+  display: flex;
+  align-items: center;
+}
 .site-nav {
   color: var(--title-text-color);
   font-weight: 500;
@@ -113,6 +118,8 @@ img {
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
+
+/* LOGO */
 
 .logo {
   margin: auto 0;
@@ -160,6 +167,8 @@ img {
   margin-bottom: 20px;
 }
 
+/* HERO */
+
 .hero {
   text-align: center;
   background-color: var(--black-bg-color);
@@ -179,10 +188,24 @@ img {
   max-width: 696px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.hero-button {
+  padding: 10px 32px 10px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  border: none;
+  text-decoration: none;
+  text-align: center;
 }
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
+}
+
+/* FEATURES */
 
 .features-title {
   margin-top: 0;
@@ -206,6 +229,8 @@ img {
   margin-right: 0;
 }
 
+/* FILTERS AND ACTIVITY */
+
 .filters-item {
   margin-right: 8px;
 }
@@ -213,6 +238,22 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.filters-button {
+  border: none;
+  padding: 6px 22px 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: var(--button-grey-color);
+  color: var(--title-text-color);
+}
+.filters-button:hover,
+.filters-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  cursor: pointer;
 }
 
 .activity-title {
@@ -241,6 +282,8 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/* WORK AND TEAM */
 
 .work {
   padding-top: 0;
@@ -306,38 +349,7 @@ img {
   padding-bottom: 30px;
 }
 
-.hero-button {
-  padding: 10px 32px 10px 32px;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
-  border: none;
-  text-decoration: none;
-  text-align: center;
-}
-.hero-button:hover,
-.hero-button:focus {
-  cursor: pointer;
-}
-
-.filters-button {
-  border: none;
-  padding: 6px 22px 6px 22px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  background-color: var(--button-grey-color);
-  color: var(--title-text-color);
-}
-.filters-button:hover,
-.filters-button:focus {
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
-  cursor: pointer;
-}
+/* FOOTER */
 
 .footer-item {
   margin-bottom: 9px;
