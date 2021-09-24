@@ -357,6 +357,7 @@ img {
   color: var(--white-text-color);
 }
 
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
