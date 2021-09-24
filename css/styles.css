@@ -35,12 +35,8 @@ h6 {
   margin: 0;
 }
 
-ul {
-  margin: 0;
-  padding-left: 0;
-}
-
 img {
+  min-width: 100%;
   display: block;
 }
 
@@ -60,7 +56,7 @@ img {
 }
 
 .header {
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .header-container {
@@ -113,6 +109,10 @@ img {
   display: block;
   color: var(--accent-color);
   text-decoration: none;
+}
+
+.contacts-item:first-child {
+  margin-left: 331px;
 }
 
 .contacts-item:not(:last-child) {
@@ -173,10 +173,10 @@ img {
   text-align: center;
   background-color: var(--black-bg-color);
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero-title {
   margin: 0 auto;
-  padding-top: 200px;
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -231,7 +231,7 @@ img {
 
 /* FILTERS AND ACTIVITY */
 
-.filters-item {
+.filters-item:not(:last-child) {
   margin-right: 8px;
 }
 .filters-list {
@@ -346,6 +346,7 @@ img {
 .team-item-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--white-text-color);
 }
 
 /* FOOTER */
@@ -353,10 +354,14 @@ img {
 .footer-item {
   margin-bottom: 9px;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--white-text-color);
 }
 
+.footer-item:last-child {
+  margin-bottom: 0;
+}
 
 .contacts-link:hover,
 .contacts-link:focus {
@@ -387,7 +392,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list {
+.footer-address {
   margin-top: 20px;
 }
 .footer {
